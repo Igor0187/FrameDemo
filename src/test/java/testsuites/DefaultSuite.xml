@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Default suite with smoke tests">
+    <listeners>
+        <listener class-name="listeners.TestListeners"/>
+    </listeners>
+    <test name="Smoke tests">
+        <classes>
+            <class name="testcases.uiTest.SimleTest"/>
+            <class name="testcases.apiTest.UserReqresTest"/>
+            </classes>
+    </test>
+</suite>
